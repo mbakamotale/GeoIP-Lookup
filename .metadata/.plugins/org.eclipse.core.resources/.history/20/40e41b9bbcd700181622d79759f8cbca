@@ -1,0 +1,9 @@
+package com.geoippractical.lookup;
+
+
+import com.maxmind.geoip.LookupService;
+
+public class CountryLookup {
+	
+	
+}

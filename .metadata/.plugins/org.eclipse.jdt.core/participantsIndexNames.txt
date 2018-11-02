@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+/Users/admin/Documents/workspace-sts-3.9.6.RELEASE 19.18.24/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3099868753.index
+/geoippractical/src/main/java
+/Users/admin/Documents/workspace-sts-3.9.6.RELEASE 19.18.24/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4233432021.index
+/geoippractical/src/main/java

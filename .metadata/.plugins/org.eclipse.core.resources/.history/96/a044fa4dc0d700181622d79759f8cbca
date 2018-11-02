@@ -1,0 +1,20 @@
+package com.geoippractical.lookup;
+
+
+import java.io.IOException;
+
+import com.maxmind.geoip.Country;
+import com.maxmind.geoip.LookupService;
+
+public class CountryLookup  {
+	
+	private String ipAddress;
+	
+	CountryLookup() throws IOException{
+		
+	}
+	
+	
+	LookupService lookupService = new LookupService("/geoippractical/src/main/resources/GeoIP.dat", LookupService.GEOIP_MEMORY_CACHE | LookupService.GEOIP_CHECK_CACHE);
+	Country country = lookupService.getCountry(ipAddress);
+}

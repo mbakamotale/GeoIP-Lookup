@@ -1,0 +1,25 @@
+package com.geoippractical.lookup;
+
+import java.util.Map;
+
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class WelcomeController {
+
+	@RequestMapping("/searchcountrybyip")
+	public String display(Map<String, Object> model) {
+		return "searchcountrybyip";
+	}
+	
+	
+	@RequestMapping("/")
+	public String test(Map<String, Object> model) {
+		return "index";
+	}
+	
+
+}

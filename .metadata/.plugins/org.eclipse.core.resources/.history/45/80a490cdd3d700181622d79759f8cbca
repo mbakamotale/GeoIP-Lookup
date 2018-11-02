@@ -1,0 +1,23 @@
+package com.geoippractical.lookup;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GeoippracticalApplication {
+
+	public static void main(String[] args) throws IOException {
+		Scanner scanner = new Scanner(System.in);
+		CountryLookup countryLookup = new CountryLookup();
+		
+		
+		System.out.println("Enter IP address");
+		String ipAddress = scanner.nextLine();
+		
+		
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.geoippractical.lookup;
+
+public @interface Path {
+
+}
